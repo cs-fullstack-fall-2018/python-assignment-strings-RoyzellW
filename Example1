@@ -1,0 +1,69 @@
+import os
+
+os.system("clear")
+
+bandMate = "ringo"
+
+x = len(bandMate)
+
+# 1. Length of the name
+
+print(len(bandMate))
+
+# 2. Print the name in upper and lowercase.
+
+print(bandMate.upper())
+
+print(bandMate.lower())
+
+# 3. Print the middle letter
+
+print(bandMate[2])
+
+# 4. Print the second to fourth letters
+
+print(bandMate[2:4])
+
+#5. Print the letters after n
+
+print(bandMate[3:])
+
+# 6. Discover other object functions and format the name in at least 2 additional ways.
+print(bandMate.center(30))
+
+print(bandMate.capitalize())
+
+# 7. Write the code to allow the user to input a name.
+
+print(input("What is your name?"))
+
+# 8. Print “The entered string is x characters long”
+
+print("The entered string is:", str(x), "characters long.")
+
+# 9. Print the entered string in a different case (you choose)
+
+print("The entered string".swapcase())
+
+#10. Enhance the code to allow the user to input multiple names.
+
+cane = input("What is your name?")
+west = input("What is your friend's name?")
+ran = input("What is your brothers name?")
+
+print( cane, west, "and", ran, "went running to the park!")
+
+ray = cane, west, "and", ran
+
+if (len(cane) > len(west), len(ran)):
+    print(cane)
+
+if (len(west) > len(cane), len(ran)):
+    print(west)
+
+if (len(ran) > len(cane), len(west)):
+    print(ran)
+
+else:
+    print("All names are the same length!")
+    
